@@ -1,0 +1,178 @@
+/* Resetting default browser styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: serif;
+    font-style: italic;
+    font-size: medium;
+    background-color:  #f9f7e3;
+    color: #ffffff;
+    padding: 8px;
+    position: relative;
+    top: 0px;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    font-size: 25px;
+}
+
+#logo img {
+    max-height: 80px;
+    width: auto;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav menu li {
+    display: inline-block;
+    margin-left: 0px;
+}
+
+nav menu li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 25px;
+}
+
+#masthead {
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    font-style: oblique;
+    font-size: large;
+    color: #ffffff;
+    padding: 50px 0;
+
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+    line-height: 37px;
+    padding-left: 50px;
+}
+
+form h3 {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.option-box {
+    border: 5px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: middle; 
+    display: inline-block;
+    cursor: pointer;
+}
+
+select{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-size: 16px;
+}
+
+form input[type="submit"]{
+    background-color: rgb(245, 77, 55);
+    border: none;
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+    padding: 5px;
+}
+
+form input[type="submit"]:hover{
+    background-color: white;
+    color: red;
+    font-size: 16px;
+}
+
+label {
+    display: block;
+}
+
+/*footer*/
+
+footer {
+    text-align: center;
+    background-color: rgb(51, 51, 51);
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.copyright{
+    font-size: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer i {
+    text-decoration: none;
+    color: #fff;
+    padding: 6px;
+}
+
+footer p {
+    margin-bottom: 2px;
+}
+
+footer img{
+    height: 70px;
+    align-items: end;
+}
+
+

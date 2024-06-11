@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Pizza website assignment 2">
+        <meta name="robots" content="nofollow, no index">
+
+        <title>Assignment 2 | Pizza website</title>
+
+        <!-- CSS file-->
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <a href="index.html"><img src="../image/logo1.png"  alt="logo"></a>
+            </div>
+           <nav>
+                <menu>
+                <li><a href="#">Sign in</a></li>
+                <li><a href="#">Language</a></li>
+                </menu> 
+            </nav>
+        </header>
+        <div id="video">
+            <video id="background-video" autoplay loop muted poster="../image/video.mp4">
+                <source src="../image/video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <section id="masthead">
+          
+                <h1>Welcome to Pizza Bell !!</h1>
+                <p> We serve the best pizza in the town.</p>
+            
+        </section>
+        <main>
+            <section>
+                
+                <div class="main-container">
+                    <div class="form-container">
+                        <!-- Form-->
+                        <form action="somephpfile" method="post" enctype="multipart/form-data">
+                            <!--Pre prepared options-->
+                            <h3>Try our bestseller!</h3>
+                            <input type="radio" id="html" name="pre" value="prepizza">
+                            <label id="Cheesy7"> Cheesy 7 </label>
+                            
+                            <input type="radio" id="css" name="pre" value="prepizza">
+                            <label id="BeefyBeef"> Beefy Beef </label> 
+                           
+
+                            <!-- Making own pizza-->
+                            <h3>Create Your Own!</h3>
+                            
+                            <!--Size of the base -->
+                            <h4>Select the size: </h4>
+                            <input type="radio" id="small" name="size" value="size">
+                            <label id="Small">Small</label>
+                            <input type="radio" id="medium" name="size" value="size">
+                            <label id="Medium">Medium</label>
+                            <input type="radio" id="large" name="size" value="size">
+                            <label id="Large">Large</label> 
+                            
+
+                            <!--Crust-->
+                            <h4>Choose Crust: </h4>
+                            <input type="radio" id="thin" name="crust" value="crust">
+                            <label id="Thin">Thin</label>
+                            <input type="radio" id="normal" name="crust" value="crust">
+                            <label id="Normal">Normal</label>
+                            <input type="radio" id="hand-Tossed" name="crust" value="crust">
+                            <label id="Hand-Tossed">Hand-Tossed</label> 
+                            
+
+                            <!--Cheese type -->
+                            <h4>Cheese Type: </h4>
+                            <input type="radio" id="light" name="cheese" value="cheese">
+                            <label id="Light">Light</label>
+                            <input type="radio" id="regular" name="cheese" value="cheese">
+                            <label id="Regular">Regular</label>
+                            <input type="radio" id="double" name="cheese" value="cheese">
+                            <label id="Double">Double</label>
+                            <input type="radio" id="extra" name="cheese" value="cheese">
+                            <label id="Extra">Extra</label> 
+                           
+                            <!--Toppings-->
+                            <h4>Toppings: </h4>
+                            <h5>Meat</h5>
+                            <input type="checkbox" id="beef" name="meat" value="meat">
+                            <label id="Beef">Beef</label>
+                            <input type="checkbox" id="pepperoni" name="meat" value="meat">
+                            <label id="checkbox">Pepperoni</label>
+                            <input type="checkbox" id="chicken" name="meat" value="meat">
+                            <label id="Chicken">Chicken</label>
+                          
+                            <h5>Non-meat</h5>
+                            <input type="checkbox" id="pepper" name="nonmeat" value="nonmeat">
+                            <label id="Pepper">Pepper</label>
+                            <input type="checkbox" id="onion" name="nonmeat" value="nonmeat">
+                            <label id="Onion">Onion</label>
+                            <input type="checkbox" id="mushroooms" name="nonmeat" value="nonmeat">
+                            <label id="Mushroooms">Mushroooms</label>
+                            
+
+
+                            <!--Quantity-->
+                           <h4>Quantity</h4>
+                            <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            </select>
+                            <br>
+
+                            <!--Place Order-->
+                            <input type="submit" value="Place Order">
+                        </form>
+                    </div>
+                    
+                </div>
+            </section>
+        </main>
+            <footer>
+                <a href="#">Contact Us: </a><br>
+                <p>+1 (123) 456-7890</p>
+                <p>Follow us: </p>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-regular fa-envelope"></i></a>          
+                
+                <br>
+                
+                <div class="copyright">
+                    <p>Disclaimer:
+                        <br>®Reg. TM/MD Pizza Bell International LLC; Used under license. © 2024 PH Canada Company. All rights reserved.
+                        
+                        <br>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+                        <br>Designed by Dev.
+                    </p>
+                </div>        
+            </footer> 
+    </body>
+</html>
